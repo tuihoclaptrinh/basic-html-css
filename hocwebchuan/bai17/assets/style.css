@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #666;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+/* Layout */
+.about-us {
+    margin: 30px auto;
+    width: 1140px;
+}
+
+.about-us .image {
+    float: left;
+    width: 520px;
+}
+
+.about-us .detail {
+    float: right;
+    width: 560px;
+}
+
+.about-us .detail h2 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 42px;
+    position: relative;
+}
+
+/* Line cho h2 */
+.about-us .detail h2:after {
+    background-color: #516cfe;
+    bottom: -6px;
+    content: "";
+    display: block;
+    left: 0;
+    height: 3px;
+    width: 60px;
+    position: absolute;
+}
+
+.about-us .detail .info-text {
+    margin-bottom: 22px;
+}
+
+.about-us .detail h3 {
+    color: #333;
+    font-size: 22px;
+}
+
+.about-us .detail .choose-list {
+    padding: 14px 0 0 20px;
+}
+
+.about-us .detail .choose-list li {
+    float: left;
+    width: 50%;
+}
+
+.about-us .detail .choose-list li i {
+    color: #4fa2fb;
+    font-size: 10px;
+    padding-right: 5px;
+}

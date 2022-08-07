@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.best-shared {
+    margin: 20px auto;
+    text-align: center;
+    width: 800px;
+}
+
+.logo {
+    margin-bottom: 15px;
+}
+
+.best-shared h2 {
+    font-size: 45px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.best-shared strong {
+    color: #00aeef;
+    font-weight: 600;
+}
+
+.lead-text {
+    margin-bottom: 40px;
+}
+
+.btn-list {
+
+}
+
+.btn-list li {
+    display: inline;
+    margin: 0 12px;
+}
+
+.btn-list li a {
+    background-color: #2d3032;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    height: 56px;
+    line-height: 56px;
+    min-width: 170px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.btn-list li a:hover {
+    background-color: #00aeef;
+  }

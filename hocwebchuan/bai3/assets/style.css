@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #231f20;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.invite {
+    background-color: #f2f2f2;
+    margin: 20px auto;
+    padding: 30px 0 100px;
+    text-align: center;
+    width: 870px;
+}
+
+.invite .icon {
+    border: 2px solid #5ac6d0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 56px;
+    line-height: 64px;
+    margin-bottom: 35px;
+    width: 56px;
+}
+
+.invite .icon i {
+    color: #5ac6d0;
+    font-size: 24px;
+}
+
+.invite h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.invite .info {
+    margin-bottom: 25px;
+}
+
+.invite form .email {
+    margin-bottom: 16px;
+}
+
+.invite form input[type=email] {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-size: 17px;
+    padding: 20px 10px;
+    width: 360px;
+  }
+
+.invite form button {
+    background-color: #70cbce;
+    border: 1px solid #70cbce;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    height: 60px;
+    min-height: 60px;
+    padding: 0 30px;
+    transition: 0.3s all;
+  }
+  .invite form button:hover {
+    background-color: #de4a1e;
+    border: 1px solid #de4a1e;
+  }

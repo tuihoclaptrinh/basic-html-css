@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #1c1b1b;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: #555;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s color;
+}
+
+a:hover {
+    color: #359a9a;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.portfolio {
+    margin: 30px auto;
+    width: 1130px;
+}
+
+.portfolio h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.portfolio h2:after {
+    background-color: #339999;
+    content: "";
+    display: block;
+    height: 3px;
+    margin: 11px auto 30px;
+    position: relative;
+    width: 75px;
+}
+
+.portfolio .list-tab {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.portfolio .list-tab li {
+    display: inline;
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+.portfolio .list-tab li.active a {
+    color: #359a9a;
+}
+
+.portfolio .galerry {
+    background-color: #fff;
+    padding: 10px;
+    padding-bottom: 6px;
+}
+
+.portfolio .galerry li {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 22px;
+    width: 350px;
+}
+
+.portfolio .galerry li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.portfolio .galerry li:nth-last-of-type(-n+3) {
+    margin-bottom: 0;
+}

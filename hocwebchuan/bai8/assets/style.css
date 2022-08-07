@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    transition: 0.3s color;
+}
+
+a:hover {
+    color: #c00;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #333;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Layout */
+.workflow {
+    margin: 30px auto;
+    width: 1040px;
+}
+
+.workflow .lead-text {
+    color: #b4b4b4;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.workflow .flow-list li {
+    width: 260px;
+    float: left;
+    text-align: center;
+}
+
+.workflow .flow-list li a {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.workflow .flow-list li img {
+    display: inline-block;
+    margin-bottom: 17px;
+}

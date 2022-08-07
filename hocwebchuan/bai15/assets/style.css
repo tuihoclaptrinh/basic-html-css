@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #f2f3f5;
+    color: #999;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+/* Layout */
+.service {
+    margin: 30px auto;
+    width: 1140px;
+}
+
+.service h2 {
+    color: #1f1f1f;
+    font-size: 40px;
+    margin-bottom: 17px;
+    text-align: center;
+}
+
+.service .lead-text {
+    font-size: 18px;
+    margin-bottom: 57px;
+    text-align: center;
+}
+
+.service .service-list li {
+    background-color: #fff;
+    float: left;
+    margin-right: 30px;
+    min-height: 420px;
+    width: 360px;
+}
+
+.service .service-list li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.service .service-list li .inner {
+    padding: 12px 15px;
+}
+
+.service .service-list li h3 {
+    color: #1f1f1f;
+    font-size: 24px;
+    margin-bottom: 3px;
+}

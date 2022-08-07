@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #333;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Layout */
+.analytic {
+    background: url(img/bg_analytic.png) no-repeat left top;
+    margin: 30px auto;
+    padding: 38px 0;
+    width: 1180px;
+}
+
+.analytic ul {
+    text-align: center;
+}
+
+.analytic ul li {
+    color: #fff;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+}
+
+.analytic ul li p {
+    width: 100%;
+}
+
+.analytic ul li .icon {
+    margin-bottom: 14px;
+}
+
+.analytic ul li .icon i {
+    font-size: 45px;
+}
+
+.analytic ul li .number {
+    font-size: 43px;
+    margin-bottom: 7px;
+}

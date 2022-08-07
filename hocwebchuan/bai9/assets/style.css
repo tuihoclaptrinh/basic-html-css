@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #333;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Layout */
+.tag-list {
+    margin: 30px auto;
+    width: 300px;
+}
+
+.tag-list h2 {
+    font-size: 20px;
+    margin-bottom: 26px;
+}
+
+.tag-list ul li {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.tag-list ul li a {
+    background-color: #01bacf;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 4px 10px 3px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.tag-list ul li a:hover {
+    background-color: #9ae13e;
+}
